@@ -1,0 +1,12 @@
+agents:
+  code:
+    provider: devin
+  roadmap:
+    provider: claude
+  security:
+    provider: claude
+  triage:
+    provider: claude
+
+app:
+  port: 8080
