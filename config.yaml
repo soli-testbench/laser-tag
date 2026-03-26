@@ -2,11 +2,21 @@ agents:
   code:
     provider: devin
   roadmap:
-    provider: claude
+    provider: vercel-ai-sdk
+    config:
+      model: claude-opus-4-6
   security:
-    provider: claude
+    provider: vercel-ai-sdk
+    config:
+      model: claude-sonnet-4-6
   triage:
-    provider: claude
+    provider: vercel-ai-sdk
+    config:
+      model: claude-haiku-4-5
 
+integrations:
+  database:
+    provider: supabase
+    
 app:
   port: 8080
